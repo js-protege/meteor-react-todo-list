@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0414f;
+  font-size: 14px;
+}
+.container {
+  background: #fff;
+  box-shadow: 0 0 15px rgb(24 24 24 / 16%);
+  border-radius: 25px;
+  width: 500px;
+  margin: 0 auto;
+  height: 500px;
+  position: absolute;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}

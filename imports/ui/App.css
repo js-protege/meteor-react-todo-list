@@ -1,0 +1,38 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding:15px 20px;
+  background-color: lightcoral;
+  font-weight: 500;
+  font-size: 18px;
+}
+.profile span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.todo{
+  padding: 20px
+}
+
+.hide-completed {
+  float: right;
+  font-size: 18px;
+}
+.hide-completed input[type='checkbox']{
+  margin: 5px;
+}
+
+header {
+  background: #fcf2f3;
+  /* background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%); */
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
